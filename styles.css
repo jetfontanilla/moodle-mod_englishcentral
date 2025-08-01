@@ -1996,3 +1996,7 @@ body.poodll-ec-embed #page {
   .mod_ec_chartcontainer .chart-area {
     height: 100%;
   }
+
+  ec-mobile-content-renderer .mobile-content-renderer.fullscreen .mobile-content {
+    padding-top: 4em;
+  }
