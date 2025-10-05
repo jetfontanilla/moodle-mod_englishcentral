@@ -30,7 +30,15 @@ defined('MOODLE_INTERNAL') || die();
 // required plugin strings
 $string['modulename'] = 'Poodll EnglishCentral';
 $string['modulenameplural'] = 'Poodll EnglishCentral Activities';
-$string['modulename_help'] = 'Use the EnglishCentral module to allow your students to use EnglishCentral videos within Moodle Courses';
+$string['modulename_help'] = 'Give students vocabulary, listening and speaking practice with authentic English language videos. Features include:
+
+* Over 14,000 ready made video lessons
+
+* AI powered speech evaluation
+
+* Self directed vocabulary lesson
+
+* Audio chat with Mimi about the video lesson ';
 $string['pluginadministration'] = 'EnglishCentral Administration';
 $string['pluginname'] = 'Poodll EnglishCentral';
 

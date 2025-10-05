@@ -6,7 +6,7 @@ OVERVIEW
 
 This module allows you to embed videos from EnglishCentral.com within activities in a Moodle course.
 
-In an EnglishCentral activity, students interact with a selected set of videos and work toward the Watch, Learn and Study goals set by the teacher.
+In an EnglishCentral activity, students interact with a selected set of videos and work toward the [Watch, Learn, Speak, Chat] goals set by the teacher.
 
 ===============================================
 LICENSE
@@ -33,7 +33,7 @@ To INSTALL the EnglishCentral module
 
     1. Clone this plugin to your server
 
-       cd /PATH/TO/MOODLE
+       cd /PATH/TO/MOODLE/PUBLIC 
        git clone -q https://github.com/gbateson/moodle-mod_englishcentral mod/englishcentral
 
     2. Add this plugin to the GIT exclude file
@@ -47,14 +47,13 @@ To INSTALL the EnglishCentral module
     Using ZIP
     ----------------
 
-    1. download the zip file from one of the following locations
+    1. download the zip file from:
 
-        * https://github.com/gbateson/moodle-mod_englishcentral/archive/master.zip
-        * https://bateson.kanazawa-gu.ac.jp/moodle/zip/plugins_mod_englishcentral.zip
+        * https://github.com/justinhunt/moodle-mod_englishcentral/archive/refs/heads/master.zip
 
     2. Unzip the zip file - if necessary renaming the resulting folder to "englishcentral".
        Then upload, or move, the "englishcentral" folder into the "mod" folder on
-       your Moodle >= 2.9 site, to create a new folder at "mod/englishcentral"
+       your Moodle >= 3.9 site, to create a new folder at "mod/englishcentral"
 
        (continue with step 3 below)
 
@@ -86,8 +85,9 @@ To INSTALL the EnglishCentral module
 
     (a) the "englishcentral" folder is put in the wrong place
         SOLUTION: make sure the folder is at "mod/englishcentral"
-                  under your main Moodle folder, and that the file
-                  "mod/englishcentral/version.php" exists
+                  under your main Moodle's folder, and that the file
+                  "mod/englishcentral/version.php" exists.
+                  NB Moodle 5.1 the mod/englishcentral should be in the main Moodle's 'public' folder
 
     (b) permissions are set incorrectly on the "mod/englishcentral" folder
         SOLUTION: set the permissions to be the same as those of other folders
@@ -149,7 +149,8 @@ to Add an EnglishCentral Activity to a Course
     7. Define study goals in terms of the following:
        (a) the number of videos to Watch
        (b) the number of words to Learn
-       (c) the number of lines to Speak.
+       (c) the number of lines to Speak
+       (d) The number of chat turns 
 
     8. Review other settings.
 

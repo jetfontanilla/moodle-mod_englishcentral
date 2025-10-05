@@ -1,11 +1,15 @@
 ========================================
 Change log for mod_englishcentral
 ========================================
+2025-10-05 (48)
+- Improvements for new activity chooser (Moodle 5.1)
+- Chat on by default in settings
+
 2025-08-01 (47)
  - Fix for back button not appearing in mobile view
 
 2025-06-24 (46)
-    - Fix for bug that prevented disabling of chat
+- Fix for bug that prevented disabling of chat
 
 2025-05-01 (45)
 　    - Fix for not properly counted student progress
